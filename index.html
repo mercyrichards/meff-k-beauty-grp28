@@ -25,10 +25,11 @@
         </ul>
 
         <!--NAVIGATION FOR SMALL SCREENS-->
+        <input type="checkbox" id="menu-toggle">
         <div class="mobile">
-            <button>
+            <label for="menu-toggle" class="menu-btn">
                 <i class="fa-solid fa-bars-staggered"></i>
-            </button>
+            </label>
             <ul class="mobile-drop">
             <li><a href="index.html">Home</a></li>
              <li><a href="products.html">Shop</a></li>
@@ -51,9 +52,9 @@
     <!--MAIN-->
     <div class="main">
     <!--HERO-->
-    <section class="hero">
+    <section class="hero"> 
         <div>
-            <h1>Your Glow, OUr Goal</h1>
+            <h1>Your Glow, Our Goal</h1>
             <p>Beauty Products to keep you radiant</p>
             <a href="products.html"><button class="btn">Shop 
                 Now</button></a>
@@ -62,17 +63,24 @@
 
     <!--SPECIAL OFFER BANNER-->
     <section class="deal-banner">
-        <h2>Limited Time Offer</h2>
-        <p><strong>Get up to 40% off on selected beauty 
-            products</strong>
-        </p>
-        <a href="products.html"><button class="btn">Shop Deals</button>
-        </a>
+        <div class="deal-left">
+            <h2>FLASH SALE</h2>
+            <p class="deal-right">
+                Up to 40% OFF on perfumes, skincare, makeup & hair products
+            </p>
+        </div>
+
+        <div class="deal-right">
+            <span class="timer">Ends soon</span>
+            <a href="products.html">
+                <button class="deal-btn">SHOP NOW</button>
+            </a>
+        </div>
     </section>
 
     <!--FEAUTURED-->
     <section>
-        <h2>Feature Products</h2>
+        <h2>Featured Products</h2>
 
         <div class="product-grid">
             <div class="card">
@@ -117,33 +125,37 @@
     </section>
 
     <!--CATEGORIES-->
-    <section>
+    <section class="Categories">
         <h2>Categories</h2>
-        <div class="product-grid">
-            <div class="card">
-                <div class="card"><h3>Perfume</h3></div>
-                <div class="card"><h3>Hair Products</h3></div>
-                <div class="card"><h3>MakeUp</h3></div>
-                <div class="card"><h3>Skincare</h3></div>
-            </div>
+        <div class="category-grid">
+                <div class="category-card"><h3>Perfume</h3></div>
+                <div class="category-card"><h3>Hair Products</h3></div>
+                <div class="category-card"><h3>MakeUp</h3></div>
+                <div class="category-card"><h3>Skincare</h3></div>
         </div>
     </section>
 
-    </section>
 
     <!--WHY SHOP WITH US-->
-    <section>
+    <section class="why-us">
         <h2>Why Shop With Us</h2>
-        <div class="product-grid">
-            <div class="card">
-                <div class="card"><h3>Premium Quality</h3></div>
-                <div class="card"><h3>Free Shipping</h3></div>
-                <div class="card"><h3>Secure Payment</h3></div>
+        <div class="why-grid">
+            <div class="why-card">
+                <h3>Premium Quality</h3>
+                <p>Carefully selected products you can trust</p>
+            </div>
+            <div class="why-card">
+                <h3>Free shipping</h3>
+                <p>Fast and reliable delivery nationwide</p>
+            </div>
+            <div class="why-card">
+                <h3>Secure Payment</h3>
+                <p>100% safe and secure payment options</p>
             </div>
         </div>
     </section>
 
-    </div>
+
 
     <!--footer-->
     <footer>
