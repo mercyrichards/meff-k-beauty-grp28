@@ -442,18 +442,8 @@ h2 {
   text-align: center;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-body {
-    list-style: none;1.6
-}
-    
-
-    /* FORM */
+  /* Created by Fortunate Uche Eke */  
+ /* FORM */
 form {
     display: flex;
     flex-direction: column;
@@ -473,8 +463,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
-/* Created by Fortunate Uche Eke */
 
 /* CONTACT INFO */
 .contact-info {
